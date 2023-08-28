@@ -1,9 +1,13 @@
-function show(){
-	document.getElementById("arttab").style.display ="block";
+function show(iconElement){
+	let elementId = iconElement.id;
+	let tabElement = document.getElementById(elementId + "tab")
+	if(tabElement != null){
+		tabElement.style.display ="block";
+	}
 }
 
-function hide(){
-	document.getElementById("arttab").style.display ="none";
+function hide(element){
+	element.style.display ="none";
 }
 
 function link(){
@@ -13,15 +17,16 @@ function link(){
 
 window.onload=function(){
 
-	// const myNodeList = document.querySelectorAll("p");
-	// myNodeList[1]
-	
-	// document.querySelector("nav div").onclick=function(){
-	// 	show(this);
-	// }
+	for (let icon of document.querySelectorAll("nav > *")) {
+		icon.onclick = function(){
+			show(icon);
+		}
+	}
 
-	document.getElementById("art").onclick=function(){
-		show(this);
+	for (let tab of document.querySelectorAll("#content > section")) {
+		tab.onclick = function(){
+			hide(tab);
+		}
 	}
 	document.getElementById("arttab").onclick=function(){
 		hide(this);
