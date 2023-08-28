@@ -23,14 +23,12 @@ window.onload=function(){
 		}
 	}
 
-	for (let tab of document.querySelectorAll("#content > section")) {
+	for (let tab of document.querySelectorAll("section")) {
 		tab.onclick = function(){
 			hide(tab);
 		}
 	}
-	document.getElementById("arttab").onclick=function(){
-		hide(this);
-	}
+
 	document.getElementById("link").onclick=function(){
 		link(this);
 	}
