@@ -12,7 +12,7 @@ body, html{
 }
 
 body{
-	background-image: url("designhomedark.png");
+	background-image: url("designhome.png");
 	background-size: 80% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -32,6 +32,16 @@ h1, h2, h3{
 
 h1{
 	font-size: 2.2em;
+}
+
+strong, b, i{
+	display: block;
+	margin-bottom: 1em;
+}
+
+strong{
+	text-transform: uppercase;
+	margin-bottom: 2em;
 }
 
 header{
@@ -59,8 +69,8 @@ nav div#art{
 }
 
 nav div#time{
-	top:55%;
-	left:50%;
+	top:60%;
+	left:55%;
 }
 
 nav div#dream{
@@ -73,8 +83,23 @@ nav div#bat{
 	left:60%;
 }
 
-nav div#link{
+nav div#cat{
+	top:50%;
+	left:15%;
+}
+
+nav div#dark{
 	top:25%;
+	left:40%;
+}
+
+nav div#pan{
+	top:10%;
+	left:50%;
+}
+
+nav div#link{
+	top:55%;
 	left:40%;
 }
 
@@ -90,12 +115,12 @@ nav div p{
 section{
 	display: none;
 	position: absolute;
-	width:80%;
-	height:75%;
-	padding:20px;
-	top:50%;
+	width: 80%;
+	height: 80%;
+	padding: 20px;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -55%);
+	transform: translate(-50%, -50%);
 	overflow: scroll;
 	color: black;
 	background-color: white;
@@ -107,16 +132,32 @@ section{
 }
 
 .grid {
-column-count: 2;
-column-gap: 10px;
+	column-count: 2;
+	column-gap: 10px;
 }
 
 .grid > img{
 	width: 100%;
-	/*JS: if image width is bigger than height > grid-column: span 2;*/
+	margin-bottom: 6px;
+	/*JS: if image width is bigger than height > column: span 2;*/
 }
 
-/*@media only screen and (min-width: 1000px){
-	body, html{
-	}
-}*/
+.grid > img.big{
+	column-span: all;
+}
+
+section iframe{
+	width:100%;
+	height:100%;
+	border: none;
+}
+
+@media only screen and (max-width: 850px){
+body{
+	background-size: 100% 100%;
+}
+
+.grid {
+	column-count: 1s;
+	column-gap: 10px;
+}
