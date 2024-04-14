@@ -64,12 +64,12 @@ nav div#trash{
 }
 
 nav div#art{
-	top:60%;
+	top:65%;
 	left:30%;
 }
 
 nav div#time{
-	top:60%;
+	top:65%;
 	left:55%;
 }
 
@@ -96,6 +96,76 @@ nav div#dark{
 nav div#pan{
 	top:10%;
 	left:50%;
+}
+
+nav div#pap{
+	top:5%;
+	left:60%;
+}
+
+nav div#strat{
+	top:40%;
+	left:65%;
+}
+
+nav div#sushi{
+	top:20%;
+	left:30%;
+}
+
+nav div#ink{
+	top:10%;
+	left:20%;
+}
+
+nav div#bunny{
+	top:50%;
+	left:25%;
+}
+
+nav div#creature{
+	top:70%;
+	left:20%;
+}
+
+nav div#paint{
+	top:20%;
+	left:70%;
+}
+
+nav div#house{
+	top:30%;
+	left:50%;
+}
+
+nav div#aca{
+	top:70%;
+	left:40%;
+}
+
+nav div#osc{
+	top:35%;
+	left:10%;
+}
+
+nav div#har{
+	top:10%;
+	left:40%;
+}
+
+nav div#vr{
+	top:60%;
+	left:10%;
+}
+
+nav div#wash{
+	top:50%;
+	left:50%;
+}
+
+nav div#piano{
+	top:5%;
+	left:30%;
 }
 
 nav div#link{
