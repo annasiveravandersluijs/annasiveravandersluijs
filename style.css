@@ -217,6 +217,7 @@ section{
 }
 
 .grid > img{
+	display: block;
 	width: 100%;
 	margin-bottom: 6px;
 	/*JS: if image width is bigger than height > column: span 2;*/
