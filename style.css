@@ -58,11 +58,6 @@ nav div{
 	position: absolute;
 }
 
-nav div#trash{
-	top:70%;
-	left:40%;
-}
-
 nav div#art{
 	top:10%;
 	left:40%;
@@ -86,11 +81,6 @@ nav div#bat{
 nav div#cat{
 	top:30%;
 	left:50%;
-}
-
-nav div#dark{
-	top:20%;
-	left:60%;
 }
 
 nav div#pan{
@@ -123,11 +113,6 @@ nav div#bunny{
 	left:25%;
 }
 
-nav div#creature{
-	top:50%;
-	left:15%;
-}
-
 nav div#paint{
 	top:40%;
 	left:65%;
@@ -151,31 +136,6 @@ nav div#osc{
 nav div#har{
 	top:25%;
 	left:15%;
-}
-
-nav div#vr{
-	top:60%;
-	left:10%;
-}
-
-nav div#wash{
-	top:70%;
-	left:20%;
-}
-
-nav div#piano{
-	top:35%;
-	left:10%;
-}
-
-nav div#ayca{
-	top:10%;
-	left:50%;
-}
-
-nav div#dss{
-	top:5%;
-	left:60%;
 }
 
 nav div#link{
