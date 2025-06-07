@@ -59,92 +59,72 @@ nav div{
 }
 
 nav div#art{
-	top:10%;
-	left:45%;
+	top:60%;
+	left:15%;
 }
 
 nav div#time{
-	top:25%;
+	top:55%;
 	left:40%;
 }
 
 nav div#dream{
-	top:50%;
-	left:25%;
+	top:65%;
+	left:50%;
 }
 
 nav div#bat{
-	top:60%;
-	left:30%;
+	top:50%;
+	left:55%;
 }
 
 nav div#cat{
-	top:20%;
-	left:55%;
-}
-
-nav div#pan{
-	top:65%;
-	left:55%;
-}
-
-nav div#pap{
-	top:70%;
-	left:45%;
-}
-
-nav div#strat{
-	top:15%;
-	left:65%;
-}
-
-nav div#sushi{
-	top:65%;
-	left:20%;
-}
-
-nav div#ink{
-	top:20%;
-	left:30%;
-}
-
-nav div#bunny{
-	top:50%;
-	left:15%;
-}
-
-nav div#paint{
 	top:40%;
 	left:70%;
 }
 
-nav div#house{
-	top:50%;
-	left:55%;
-}
-
-nav div#aca{
-	top:60%;
-	left:65%;
+nav div#strat{
+	top:65%;
+	left:30%;
 }
 
 nav div#osc{
-	top:10%;
-	left:20%;
-}
-
-nav div#har{
-	top:25%;
-	left:15%;
+	top:62%;
+	left:65%;
 }
 
 nav div#thesis{
 	top:25%;
-	left:50%;
+	left:52%;
+}
+
+nav div#emp{
+	top:35%;
+	left:12%;
+}
+
+nav div#astro{
+	top:20%;
+	left:65%;
+}
+
+nav div#dss{
+	top:25%;
+	left:30%;
+}
+
+nav div#brei{
+	top:15%;
+	left:18%;
+}
+
+nav div#dark{
+	top:50%;
+	left:25%;
 }
 
 nav div#link{
-	top:55%;
+	top:15%;
 	left:40%;
 }
 
