@@ -62,22 +62,22 @@ nav div{
 
 nav div#time{
 	top:60%;
-	left:50%;
+	left:40%;
 }
 
 nav div#dream{
-	top:50%;
+	top:55%;
 	left:25%;
 }
 
 nav div#bat{
-	top:65%;
-	left:35%;
+	top:60%;
+	left:60%;
 }
 
 nav div#cat{
-	top:65%;
-	left:65%
+	top:55%;
+	left:75%
 }
 
 nav div#thesis{
@@ -88,11 +88,6 @@ nav div#thesis{
 nav div#astro{
 	top:20%;
 	left:30%;
-}
-
-nav div#dark{
-	top:50%;
-	left:75%;
 }
 
 nav div#link{
